@@ -9,6 +9,8 @@
     <script type="module" src="oppgave4.js"></script>
     <script type="module" src="oppgave5.js"></script>
     <script type="module" src="oppgave5.js"></script>
+    <script type="module" src="oppgave6.js"></script>
+    <script type="module" src="oppgave7.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -26,28 +28,29 @@
     <!--Oppgave 4-->
     <hr>
     <button id="klikk">+1</button>
-    <p>0</p>
+    <p id="oppg4">0</p>
 
     <!--Oppgave 5-->
     <hr>
-    <button>Alarm</button>
-    <div>
-        <p>alarm av</p>
+    <button id="alarmKnapp">Alarm</button>
+    <div id="alarmDiv">
+        <p id="alarmTekst">alarm av</p>
     </div>
     
     <!--Oppgave 6-->
     <hr>
-    <input type="text">
-    <button>Ekko</button>
-    <p>...</p>
+    <input id="ekkoInn" type="text">
+    <button id="ekkoKnapp">Ekko</button>
+    <p id="ekkoParagraph">...</p>
 
     <!--Oppgave 7-->
     <hr>
     <select onchange="farge()" id="sel">
         <option value="forrest">Skog</option>
         <option value="mountain">Fjell</option>
+        <option value="lake">Innsjø</option>
     </select>
     <br>
-    <img id="opg7"></img>
+    <img id="opg7bilde"></img>
 </body>
 </html>
